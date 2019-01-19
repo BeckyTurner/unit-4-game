@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Crystals Collector!!</h1>
+
+    <div id="rules">
+        <p>You will be given a random number at the start of the game. This will be the score to match.</p>
+        <p>There are four crystals below. By clicking on the crystal, you will add a specific amount to your score.</p>
+        <p>You win the game by matching your score to the random number, and you lose the game if your score goes over the random number.</p>
+        <p>You need to figure out the value of each crystal by clicking on it.</p>
+        <p>Each time the game is reset, the values of the crystals will change.</p>
+    </div>
+    <div id="random-number">Score to match: </div>
+    <div class="games">
+        <div id="wins">Wins: </div>
+        <div id="losses">Losses: </div>
+    </div>
+    <div id="crystals">
+        <button><img id=crystal1 src="assets/images/crystal1.jpg"></button>
+        <button><img id=crystal2 src="assets/images/crystal2.jpg"></button>
+        <button><img id=crystal3 src="assets/images/crystal3.jpg"></button>
+        <button><img id=crystal4 src="assets/images/crystal4.jpg"></button>
+    </div>
+    <div id="score">Your total score is: </div>
+
+    <script src="assets/javascript/game.js">
+    
+    
+    </script> 
+</body>
+</html>
