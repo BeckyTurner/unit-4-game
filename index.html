@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="container">
     <h1>Crystals Collector!!</h1>
 
     <div id="rules">
@@ -19,17 +19,22 @@
         <p>You need to figure out the value of each crystal by clicking on it.</p>
         <p>Each time the game is reset, the values of the crystals will change.</p>
     </div>
-    <div id="random-number">Score to match: </div>
-    <div class="games">
-        <div id="wins">Wins: </div>
-        <div id="losses">Losses: </div>
+    <br>
+    <div class="stats">
+        <div id="random-number">Score to Match: </div>
+        <div class="games">
+            <div id="wins">Wins: </div>
+            <div id="losses">Losses: </div>
+        </div>
     </div>
+    <br>
     <div id="crystals">
         <button><img id=crystal1 src="assets/images/crystal1.jpg"></button>
         <button><img id=crystal2 src="assets/images/crystal2.jpg"></button>
         <button><img id=crystal3 src="assets/images/crystal3.jpg"></button>
         <button><img id=crystal4 src="assets/images/crystal4.jpg"></button>
     </div>
+    <br>
     <div id="score">Your total score is: </div>
 
     <script src="assets/javascript/game.js">

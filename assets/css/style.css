@@ -1,4 +1,42 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+  }
+
 #crystal1, #crystal2, #crystal3, #crystal4 {
     width: 200px;
     height: auto;
+    border: solid 5px black;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+}
+
+h1 {
+    background-color: magenta;
+    text-align: center;
+    border: solid 7px black;
+    padding: 30px;
+    margin-left:300px;
+    margin-right:300px;
+}
+
+#rules {
+    background-color: magenta;
+    border: solid 5px black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left:100px;
+}
+
+.stats, #score {
+background-color: magenta;
+border: solid 5px black;
+margin-right: 925px;
+padding:10px;
+text-align: center;
+font-weight: bold;
 }
