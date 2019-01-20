@@ -54,6 +54,7 @@ function startGame() {
     function newGame() {
         totalScore = 0;
         scoreToMatch = randomizer(19, 120);
+        $("#score").text("Your total score is: 0");
         console.log(scoreToMatch);
         console.log(crystalOne, crystalTwo, crystalThree, crystalFour);    
     }
